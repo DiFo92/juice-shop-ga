@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-require("./lib/startup/validateDependencies")().then(() => {
-  const server = require("./server");
-  server.start();
-  console.log("algo");
-});
+require('./lib/startup/validateDependencies')().then(() => {
+  const server = require('./server')
+  server.start()
+  console.log('algo')
+})
